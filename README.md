@@ -11,9 +11,9 @@ Modern websites often have hundreds of hyperlinks.
 Broken links not only hurt SEO but also lead to poor user experience.  
 
 This automation script:
-- Scans all `<a>` tags on a webpage
-- Validates each link using **HTTP HEAD requests**
-- Prints working and broken links with status codes
+- Scans all `<a>` tags on a webpage  
+- Validates each link using **HTTP HEAD requests**  
+- Prints working and broken links with status codes  
 
 It’s a **simple yet powerful example** of combining Selenium for web automation and Java’s networking libraries for validation.
 
@@ -36,7 +36,7 @@ It’s a **simple yet powerful example** of combining Selenium for web automatio
 |------------|--------------|
 | **Language** | Java |
 | **Automation Framework** | Selenium WebDriver |
-| **Build Tool** | Maven (recommended) |
+| **Build Tool** | Maven |
 | **Browser** | Google Chrome |
 | **Driver Setup** | WebDriverManager |
 | **HTTP Validation** | Java `HttpURLConnection` |
@@ -48,5 +48,5 @@ It’s a **simple yet powerful example** of combining Selenium for web automatio
 
 ### 🪜 1. Clone this repository
 ```bash
-git clone https://github.com/yourusername/broken-links-checker.git
+git clone https://github.com/Siddharth-S25/broken-links-checker.git
 cd broken-links-checker
