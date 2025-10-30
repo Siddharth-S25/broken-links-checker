@@ -46,7 +46,42 @@ It’s a **simple yet powerful example** of combining Selenium for web automatio
 
 ## 📦 Setup Instructions
 
-### 🪜 1. Clone this repository
-```bash
-git clone https://github.com/Siddharth-S25/broken-links-checker.git
-cd broken-links-checker
+## 🪜 1. Clone this repository
+bash
+--git clone https://github.com/Siddharth-S25/broken-links-checker.git
+
+-cd broken-links-checker
+
+---
+## 2. Open in IntelliJ IDEA 
+
+Open the folder in IntelliJ.
+
+Make sure Maven dependencies are installed.
+
+Run BrokenLinksCheck.java from the src/main/java folder
+
+---
+
+💻 **Example Output**
+Total links found: 42
+
+✅ Working link: https://www.google.com | Status: 200
+
+❌ Broken link: https://invalid-url.com | Status: 404
+
+---
+
+🧩 **Learning Takeaways**
+
+Combining UI + API automation
+
+Using implicit waits effectively
+
+Handling network exceptions
+
+Writing clean, modular test code
+
+Building maintainable test utilities
+
+
